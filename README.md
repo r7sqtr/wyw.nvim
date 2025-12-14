@@ -1,6 +1,6 @@
 # wyw.nvim
 
-**W**hile e*Y**ou **W**ait - A Neovim plugin to read tech news while waiting for builds, tests, or deployments.
+**W** hile **Y** ou **W** ait - A Neovim plugin to read tech news while waiting for builds, tests, or deployments.
 
 ## Features
 
@@ -44,26 +44,6 @@
     })
   end,
 }
-```
-
-### [packer.nvim](https://github.com/wbthomason/packer.nvim)
-
-```lua
-use {
-  "username/wyw.nvim",
-  config = function()
-    require("wyw").setup()
-  end
-}
-```
-
-### Manual
-
-Clone the repository to your Neovim packages directory:
-
-```bash
-git clone https://github.com/username/wyw.nvim \
-  ~/.local/share/nvim/site/pack/plugins/start/wyw.nvim
 ```
 
 ## Quick Start
